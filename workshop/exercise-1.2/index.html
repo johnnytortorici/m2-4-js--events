@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style></style>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        padding: 25px;
+        font-family: "Lucida Console", Monaco, monospace;
+        background-image: linear-gradient(to right, #22c1c3, #fdbb2d);
+      }
+      .time-text {
+        font-size: 2em;
+      }
+      .result {
+        font-size: 5em;
+        color: white;
+        text-align: center;
+      }
+      .time {
+        font-size: 2em;
+        color: #fd1d1d;
+      }
+    </style>
   </head>
   <body>
-    <p class="time-text">You have <span id="time"></span> seconds to click</p>
+    <p class="time-text">You have <span class="time" id="time"></span> seconds to click</p>
     <p class="result" id="result"></p>
     <script src="app.js"></script>
   </body>
