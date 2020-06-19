@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    width: 60vw;    
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    color: white;
+    font-size: 4em;
+    background-color: red;
+    border: none;
+}
